@@ -1,5 +1,5 @@
 
-var _ = require('underscore');
+var _       = require('underscore');
 var request = require('request');
 var promise = require('promise'); 
 
@@ -98,6 +98,15 @@ TelegramBot.prototype.httpsRequest = function( url ) {
       else fulfill(body);
     });
   });
+}
+
+/*
+ * https://core.telegram.org/bots/api#setwebhook
+ * Use this method to specify a url and receive incoming updates via an outgoing webhook.
+ */
+TelegramBot.prototype.setWebhook = function( url ) {
+  var url = this.buildURI( 'setWebhook', { url: url } );
+  return this.httpsRequest(url);
 }
 
 /*
