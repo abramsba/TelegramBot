@@ -1,6 +1,6 @@
 {
   "name": "TelegramBot",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "A generic node module for working with Telegram Bots",
   "main": "telegrambot.js",
   "keywords": [ "telegram" ],
@@ -8,7 +8,6 @@
   "license": "BSD",
   "dependencies": {
     "promise": "~7.0.3",
-    "express": "~4.13.0",
     "request": "~2.58.0",
     "underscore": "~1.8.3"
   }
