@@ -5,6 +5,10 @@
   "main": "telegrambot.js",
   "keywords": [ "telegram" ],
   "author": "Bryan Abrams",
+  "repository" : {
+    "type" : "git",
+    "url" : "https://github.com/abramsba/TelegramBot"
+  },
   "license": "BSD",
   "dependencies": {
     "promise": "~7.0.3",
