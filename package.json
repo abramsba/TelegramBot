@@ -1,0 +1,24 @@
+{
+  "name": "DevschuurBot",
+  "version": "0.0.1",
+  "description": "DERP - Digital Enterprise Resource Planning van de toekomst",
+  "main": "start.js",
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "telegram"
+  ],
+  "author": "Dimensys Devschuur",
+  "license": "BSD",
+  "dependencies": {
+    "promise": "~7.0.3",
+    "express": "~4.13.0",
+    "request": "~2.58.0",
+    "body-parser": "~1.13.1",
+    "mysql": "~2.7.0",
+    "bookshelf": "~0.8.1",
+    "knex": "~0.8.6",
+    "underscore": "~1.8.3"
+  }
+}
